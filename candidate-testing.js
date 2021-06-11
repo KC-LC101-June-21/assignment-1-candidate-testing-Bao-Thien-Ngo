@@ -10,7 +10,7 @@ let i = 0;
 
 function askForName() {
 
-  let candidateName = input.question("What is candidate\'s name? ")
+  let candidateName = input.question("What is candidate's name? ")
   return candidateName;
 
 }
@@ -29,7 +29,7 @@ function askQuestion() {
 
 }
 
-function gradeQuiz() {
+function gradeQuiz(candidateAnswers) {
 
   let numCorrect = 0;
   for (let i = 0; i < correctAnswers.length; i++) {
